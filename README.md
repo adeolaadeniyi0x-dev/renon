@@ -4,9 +4,17 @@
 
 Renon is a Nigerian local marketplace and delivery platform designed to connect customers, vendors, and riders within one ecosystem.
 
-The project focuses on building a polished product experience for discovering products and services, managing orders, and supporting marketplace and delivery workflows.
+The project explores how a single platform can support product discovery, vendor management, and local delivery workflows while maintaining a consistent user experience across different roles.
 
-## Features
+## Project Status
+
+**Portfolio project — actively developed**
+
+Renon is currently a development and portfolio project. The core user experiences and role-based workflows have been implemented, with additional features and refinements planned for future development.
+
+## What I Built
+
+Renon was built with a role-based architecture supporting three primary user experiences:
 
 ### Customer
 
@@ -21,20 +29,71 @@ The project focuses on building a polished product experience for discovering pr
 ### Vendor
 
 * Vendor account flow
-* Vendor dashboard foundation
+* Vendor dashboard
 * Product management foundation
+* Store management
 * Order management foundation
+* Add product workflow
 
 ### Rider
 
 * Rider onboarding and verification flows
 * Delivery dashboard
+* Delivery management
 * Active delivery workflow
 * Delivery details
 * Earnings
 * Notifications
 * Vehicle and profile management
 * Rider settings and support
+
+## Screenshots
+
+### Welcome & Authentication
+
+![Renon Welcome](Screenshots/Renon%20Welcome.png)
+
+![Account Type](Screenshots/Account%20Type.png)
+
+![Customer Sign Up](Screenshots/Renon%20Customer%20SignUp.png)
+
+![Sign In](Screenshots/Renon%20SignIn.png)
+
+![OTP Verification](Screenshots/Renon%20OTP.png)
+
+### Customer
+
+![Customer Dashboard](Screenshots/Customer%20Dashboard.png)
+
+![Vendor Listing](Screenshots/Renon%20Customer%20VendorListing.png)
+
+### Vendor
+
+![Vendor Dashboard](Screenshots/Renon%20Vendor%20Dashboard.png)
+
+![Add Product](Screenshots/Add%20Product.png)
+
+![Store Management](Screenshots/Renon%20Store%20Management.png)
+
+### Rider
+
+![Rider Dashboard](Screenshots/Renon%20Rider%20Dashboard.png)
+
+![Rider Deliveries](Screenshots/Renon%20Rider%20Deliveries.png)
+
+![Rider Earnings](Screenshots/Renon%20Rider%20Earning.png)
+
+![Rider Profile](Screenshots/Renon%20Rider%20Profile.png)
+
+![Rider Verification](Screenshots/Renon%20Rider%20Verification.png)
+
+![Rider Help & Support](Screenshots/Renon%20Rider%20Help%26Support.png)
+
+## Demo
+
+A full product walkthrough video will be added here.
+
+<!-- Add demo video or GIF here -->
 
 ## Tech Stack
 
@@ -62,63 +121,44 @@ lib/
 └── widgets/
 ```
 
-## Screenshots
+## Challenges & Learning
 
-### Welcome & Authentication
+Building Renon has been an opportunity to work through the challenges of developing a multi-role application rather than a single-user interface.
 
-![Renon Welcome](screenshots/Renon%20Welcome.png)
+Some of the areas I worked through include:
 
-![Account Type](screenshots/Accounty%20Type.png)
+* Structuring Flutter screens around different user roles and workflows
+* Building reusable UI components
+* Managing navigation across multiple application flows
+* Designing marketplace, vendor, and delivery experiences within one product
+* Maintaining consistency across different parts of the application
+* Working with Git and GitHub throughout development
+* Thinking about responsive layouts for different screen sizes
+* Turning a product idea into a structured application rather than a collection of individual screens
 
-![Customer Sign Up](screenshots/Renon%20Customer%20SignUp.png)
+The project has also helped me better understand the difference between building individual interfaces and thinking about the experience of an entire product.
 
-![Sign In](screenshots/Renon%20SignIn.png)
+## Purpose
 
-![OTP Verification](screenshots/Renon%20OTP.png)
+Renon started from an interest in solving everyday local marketplace and delivery problems in Nigeria.
 
-### Customer
+The project is also part of my journey toward becoming a stronger software developer by taking an idea from concept to a structured, multi-role Flutter application.
 
-![Customer Dashboard](screenshots/Customer%20Dashboard.png)
+## Future Development
 
-![Vendor Listing](screenshots/Renon%20Customer%20VendorListing.png)
+Potential future development includes:
 
-### Vendor
+* Backend/API integration
+* Persistent authentication
+* Real payment integration
+* Real-time order and delivery tracking
+* Production database
+* Vendor and rider verification systems
+* Notifications
+* Deployment and production testing
 
-![Vendor Dashboard](screenshots/Renon%20Vendor%20Dashboard.png)
+## Author
 
-![Add Product](screenshots/Add%20Product.png)
+**Adeola Adeniyi Hephzibah**
 
-![Store Management](screenshots/Renon%20Store%20Management.png)
-
-### Rider
-
-![Rider Dashboard](screenshots/Renon%20Rider%20Dashboard.png)
-
-![Rider Deliveries](screenshots/Renon%20Rider%20Deliveries.png)
-
-![Rider Earnings](screenshots/Renon%20Rider%20Earning.png)
-
-![Rider Profile](screenshots/Renon%20Rider%20Profile.png)
-
-![Rider Verification](screenshots/Renon%20Rider%20Verification.png)
-
-![Rider Help & Support](screenshots/Renon%20Rider%20Help%26Support.png)
-
-````
-
-**Save it.**
-
-The critical fix is this part immediately after the architecture tree:
-
-```text
-└── widgets/
-````
-
-followed by:
-
-```text
-```
-
-That closes the code block **before** `## Screenshots`.
-
-Once you've replaced it and saved it, **don't commit yet**. Tell me when it's saved and we'll verify the filenames first.
+Built with Flutter & Dart.
